@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 cd $HOME/TESLA
 wget https://raw.githubusercontent.com/ahmedyad200/tg-file/master/tg
+echo -e "تم تحميل ملف tg"
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
